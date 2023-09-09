@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 
 function TodoList({ editTodo, deleteTodo, todoFinished }) {
   const list = useSelector((state) => state.todo.todoList);
-  console.log(list);
 
   function onFinished(todo, isFinished) {
     todoFinished({ todo, isFinished });

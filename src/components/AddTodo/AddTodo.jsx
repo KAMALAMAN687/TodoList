@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTodo } from "../../Actions/todoActions";
+//import { addTodo } from "../../Actions/todoActions";
 function AddTodo({ addTodo }) {
   const [inputText, setInputText] = useState("");
   const dispatch = useDispatch();
